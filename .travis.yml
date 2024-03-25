@@ -4,4 +4,7 @@ node_js:
 - node
 - 'lts/*'
 
+before_install:
+  - npm i -g npm@version-number
+
 cache: npm
