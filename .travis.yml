@@ -4,7 +4,8 @@ node_js:
 - node
 - 'lts/*'
 
-before_install:
-  - npm i
-
-cache: npm
+install:
+  - npm install
+cache:
+  directories:
+    - "node_modules"
